@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-footer-bottom-page: grey;
+    --main-content-color: blue;
+    --header-top-page-color: darkblue;
+    --menu-color: black;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* color: white; */
+}
+
