@@ -75,7 +75,7 @@ ul{
 }
 
 
-/* main content */
+/* MAIN CONTENT */
 
 
 .header-top-page .btn-header {
@@ -88,7 +88,7 @@ ul{
     height: calc(100vh - 4rem);
     overflow-y: auto;
     padding-top: 5rem;
-    padding-left: 4rem;
+    padding-left: 40px;
     flex-direction: column;
 
 }
@@ -103,6 +103,28 @@ ul{
     padding: .5em;
     min-width: 100px;
 }
+
+
+.content .recently-played {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-covers{
+    flex-grow: 1;
+}
+
+
+.container-covers img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+
+
 
 
 /* footer */
