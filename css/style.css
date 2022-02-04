@@ -22,6 +22,15 @@ a {
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn-grey {
+    color: rgb(94, 91, 91);
+}
+
 /* UTILITY */
 
 
@@ -29,6 +38,25 @@ a {
     display: flex;
 }
 
+
+
+
+
+
+/* menu laterale */
+
+.menu-main {
+    background-color: var(--menu-color);
+    width: 40px;
+    min-height: 320px;
+    height: calc(100vh - 4rem);
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+}
 
 
 /* header */
@@ -46,42 +74,35 @@ a {
 
 }
 
+
+/* main content */
+
+
 .header-top-page .btn-header {
     border: 1px solid white;
     border-radius: 10px;
 }
-
-
-
-
-/* menu laterale */
-
-.menu-main {
-    background-color: var(--menu-color);
-    width: 50px;
-    min-height: 320px;
-    height: calc(100vh - 4rem);
-    position: absolute;
-    top: 0;
-    left: 0;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 100;
-}
-
-
-
-/* main content */
-
 
 .content-main {
     background-color: var(--main-content-color);
     height: calc(100vh - 4rem);
     overflow-y: auto;
     padding-top: 5rem;
+    padding-left: 4rem;
+    flex-direction: column;
 
 }
 
+.main-nav-list{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-nav-list li{
+    padding: .5em;
+    min-width: 100px;
+}
 
 
 /* footer */
@@ -93,4 +114,5 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 110;
 }
