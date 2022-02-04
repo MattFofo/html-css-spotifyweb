@@ -6,8 +6,8 @@
 
 :root{
     --color-footer-bottom-page: grey;
-    --main-content-color: blue;
-    --header-top-page-color: rgba(0, 0, 139, .5);
+    --main-content-color: rgb(44, 44, 141);
+    --header-top-page-color: rgba(3, 3, 77, 0.5);
     --menu-color: black;
 }
 
@@ -38,6 +38,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
+    min-width: 215px;
     background-color: var(--header-top-page-color);
     justify-content: flex-end;
     align-items: center;
@@ -62,6 +63,8 @@ a {
     position: absolute;
     top: 0;
     left: 0;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -73,6 +76,7 @@ a {
     background-color: var(--main-content-color);
     height: calc(100vh - 4rem);
     overflow-y: auto;
+    padding-top: 5rem;
 
 }
 
