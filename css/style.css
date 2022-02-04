@@ -17,3 +17,24 @@ html {
     /* color: white; */
 }
 
+
+/* UTILITY */
+
+
+.flex {
+    display: flex;
+}
+
+.vh10 {
+    height: 10vh;
+}
+
+
+/* header */
+
+.header-top-page {
+    background-color: var(--header-top-page-color);
+    justify-content: flex-end;
+    align-items: center;
+
+}
