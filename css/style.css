@@ -144,7 +144,7 @@ ul{
 
 
 .footer-sx {
-    width: 25%;
+    width: 20%;
 }
 
 .footer-cover-img {
@@ -162,13 +162,19 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 55%;
+    min-width: 170px;
 
 }
 
 .player-buttons{
     font-size: 1.3rem ;
     
+}
+
+.player-buttons i {
+    padding-left: .3rem;
+    padding-right: .3rem;
 }
 
 
