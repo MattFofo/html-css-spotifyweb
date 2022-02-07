@@ -12,8 +12,7 @@
 }
 
 html {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     overflow-y: hidden;
     /* color: white; */
 }
@@ -111,9 +110,8 @@ ul{
 }
 
 .container-covers{
-    flex-basis: 0;
     flex-grow: 1;
-    max-width: 350px;
+    max-width: 250px;
     min-width: 160px;
     display: flex;
     flex-direction: column;
@@ -138,9 +136,15 @@ ul{
     left: 0;
     right: 0;
     z-index: 110;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: .5rem;
     
+}
+
+
+.footer-sx {
+    width: 25%;
 }
 
 .footer-cover-img {
@@ -148,13 +152,25 @@ ul{
     height: 35px;
 }
 
+
+.container-icons {
+    flex-direction: column;
+}
+
 .footer-player {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
 
 }
+
+.player-buttons{
+    font-size: 1.3rem ;
+    
+}
+
 
 .volume-bar{
     width: 80px;
@@ -162,7 +178,16 @@ ul{
     background-color: white;
 }
 
+
 .time, .volume-bar {
-    font-size: .8rem;
+    font-size: .6rem;
     display: inline-block;
+}
+
+
+
+
+.footer-dx {
+    justify-content: flex-end;
+    width: 25%; 
 }
