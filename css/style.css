@@ -37,6 +37,10 @@ ul{
     display: flex;
 }
 
+.ai-center{
+    align-items: center;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -118,7 +122,17 @@ ul{
         align-items: center;
     }
     
-    
+    .container-add-playlist {
+        background-color: gray;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .container-add-playlist .fa-plus {
+        color: black;
+        line-height: 30px;
+    }
 }
 
 
@@ -128,6 +142,10 @@ ul{
     }
     
     .spotify-logo--text {
+        display: none;
+    }
+
+    .playlist {
         display: none;
     }
 }
