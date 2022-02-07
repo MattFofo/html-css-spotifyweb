@@ -74,21 +74,21 @@ ul{
 
 }
 
-
-/* MAIN CONTENT */
-
-
 .header-top-page .btn-header {
     border: 1px solid white;
     border-radius: 10px;
 }
+
+/* MAIN CONTENT */
+
+
 
 .content-main {
     background-color: var(--main-content-color);
     height: calc(100vh - 4rem);
     overflow-y: auto;
     padding-top: 5rem;
-    padding-left: 40px;
+    margin-left: 40px;
     flex-direction: column;
 
 }
@@ -111,15 +111,16 @@ ul{
 }
 
 .container-covers{
-    flex-grow: 1;
+    flex-basis: 0;
+    flex-grow: 0;
+    max-width: 350px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    width: 50%;
 }
 
-
-.container-covers img{
-    width: 150px;
-    height: 150px;
-    
-}
 
 
 
