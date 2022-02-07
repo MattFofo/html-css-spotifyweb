@@ -41,6 +41,10 @@ ul{
     align-items: center;
 }
 
+.as-center {
+    align-self: center;
+}
+
 .inline-block {
     display: inline-block;
 }
@@ -49,6 +53,17 @@ ul{
     padding-top: .3em;
 }
 
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
 
 
 
@@ -81,7 +96,6 @@ ul{
 
 .menu-nav .download-icon {
     width: 20px;
-    padding-bottom: 2rem;
     margin-right: 2px;
 }
 
@@ -115,7 +129,7 @@ ul{
 
     .menu-nav{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
     }
 
     .container-icon-title {
@@ -133,6 +147,11 @@ ul{
         color: black;
         line-height: 30px;
     }
+
+    .menu-nav-bottom .container-bordered {
+        border-bottom: 1px solid grey;
+
+    }
 }
 
 
@@ -146,6 +165,10 @@ ul{
     }
 
     .playlist {
+        display: none;
+    }
+
+    .install-title, .user-icon-title {
         display: none;
     }
 }
