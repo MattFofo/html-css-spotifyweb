@@ -140,6 +140,11 @@ ul{
     .container-icon-title {
         align-items: center;
     }
+
+    .playlist {
+        height: 250px;
+        overflow-y: auto;
+    }
     
     .container-add-playlist {
         background-color: gray;
