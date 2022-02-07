@@ -138,15 +138,31 @@ ul{
     left: 0;
     right: 0;
     z-index: 110;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 .footer-cover-img {
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
+}
+
+.footer-player {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .volume-bar{
-    width: 130px;
+    width: 80px;
     height: .4rem;
     background-color: white;
+}
+
+.time, .volume-bar {
+    font-size: .8rem;
+    display: inline-block;
 }
