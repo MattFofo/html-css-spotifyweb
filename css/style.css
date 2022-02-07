@@ -68,7 +68,22 @@ ul{
 
 .menu-main .menu-icon {
     width: 30px;
-    padding-bottom: .3em;
+    padding-bottom: .4em;
+}
+
+.menu-nav .download-icon {
+    width: 20px;
+    padding-bottom: 2rem;
+    margin-right: 2px;
+}
+
+.container-user-icon {
+    width: 35px;    
+    height: 35px;
+    background-color: gray;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: .5rem;
 }
 
 
