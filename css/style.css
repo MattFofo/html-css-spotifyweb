@@ -17,6 +17,10 @@ html {
     color: white;
 }
 
+body {
+    min-width: 360px;
+}
+
 a {
     text-decoration: none;
 }
@@ -79,6 +83,7 @@ ul{
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     flex-direction: column;
     justify-content: space-between;
     z-index: 100;
