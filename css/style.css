@@ -179,6 +179,12 @@ ul{
 
 }
 
+.main-nav-list li:hover .btn-main-nav {
+    color: white;
+    border-bottom: 2px solid white ;
+
+}
+
 
 .menu-nav .download-icon {
     width: 20px;
@@ -446,7 +452,7 @@ ul{
 /* Query */
 
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 550px) {
     .menu-title {
         display: none;
     }
@@ -465,10 +471,7 @@ ul{
 }
 
 
-
-
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 550px){
     .menu-main {
         background-color: var(--menu-color);
         width: 200px;
@@ -482,6 +485,14 @@ ul{
         z-index: 100;
     }
 
+    .container-covers{
+        max-width: 200px;
+        min-width: 137px;
+        width: calc(100% / 4);
+    }
+
+
+    
     .spotify-logo {
         display: none;
     }
@@ -546,6 +557,16 @@ ul{
         align-items: center;
     }
 
+    .content-main {
+        margin-left: 200px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+   
+
+
 
     .footer-content .footer-cover-img {
         width: 40px;
@@ -563,6 +584,7 @@ ul{
         align-content: center;
     }
 
+   
     
     
 }
@@ -570,19 +592,12 @@ ul{
 
 
 
-
-@media screen and (min-width: 600px) {
-    .content-main {
-        margin-left: 200px;
-    }
-
-
-}
 
 @media screen and (min-width: 1024px) {
     .container-covers{
-        max-width: 137px;
+        max-width: 200px;
         min-width: 137px;
+        width: calc(100% / 6);
     }
 
 
