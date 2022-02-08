@@ -124,9 +124,7 @@ ul{
 
 .absolute{
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
 }
 
 .pt3em {
@@ -324,6 +322,9 @@ ul{
 .container-covers .fa-play-circle {
     font-size: 3rem;
     visibility: hidden;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .cover-title {
@@ -334,6 +335,11 @@ ul{
 
 .container-covers:hover .fa-play-circle{
     visibility: visible;
+}
+
+.container-covers:hover .cover-img{
+    opacity: .5;
+
 }
 
 
@@ -481,7 +487,6 @@ ul{
 /* Query */
 
 
-
 @media screen and (max-width: 438px) {
     .footer-dx {
         display: none;
@@ -496,6 +501,9 @@ ul{
     min-width: 310px;
 
 }
+
+}
+
 
 
 @media screen and (max-width: 550px) {
@@ -653,9 +661,12 @@ ul{
         width: calc(100% / 6);
     }
 
+    .container-covers .fa-play-circle {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
 }
 
 
-}
 
