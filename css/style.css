@@ -119,7 +119,7 @@ ul{
     margin-right: .3rem;
 }
 
-
+/* ************************************************* */
 
 
 /* menu laterale */
@@ -168,13 +168,254 @@ ul{
 }
 
 .container-user-icon {
-    width: 35px;    
+    width: 35px;
     height: 35px;
     background-color: gray;
     border-radius: 50%;
     overflow: hidden;
-    
+
 }
+
+
+
+/* ************************************************** */
+
+/* header */
+
+.header-top-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-width: 215px;
+    background-color: var(--header-top-page-color);
+    justify-content: flex-end;
+    align-items: center;
+    height: 5rem;
+
+}
+
+.header-top-page .btn-header {
+    border: 1px solid white;
+    border-radius: 60px;
+    padding-right: 1em ;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-right: 1rem;
+    min-width: 220px;
+    color: white;
+    font-weight: 500;
+
+
+}
+
+
+/* MAIN CONTENT */
+
+
+
+.content-main {
+    background-color: var(--main-content-color);
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+    padding-top: 5rem;
+    margin-left: 40px;
+    flex-direction: column;
+
+}
+
+.main-nav-list{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.main-nav-list li{
+    padding: .5em;
+    min-width: 100px;
+    text-transform: uppercase;
+}
+
+
+.main-section-title {
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+    margin-left: .5rem;
+    font-weight: 700;
+}
+
+.main-section-subtitle {
+    margin-left: .5rem;
+    margin-bottom: 2rem;
+}
+
+.content .recently-played, .for-you, .popular-artist {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-covers{
+    flex-grow: 1;
+    max-width: 250px;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    width: 50%;
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: .8rem;
+}
+
+.cover-title {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.footer-bottom-page {
+    background-color: var(--color-footer-bottom-page);
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 110;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    min-width: 340px;
+
+}
+
+
+.footer-sx {
+    width: 25%;
+}
+
+.footer-cover-img {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
+
+.cover-img-container-titles {
+    flex-direction: column;
+    font-size: .5em;
+    padding-right: .3rem;
+    padding-left: .3rem;
+}
+
+.cover-img-container-titles .footer-playing-song-title {
+    font-size: .8rem;
+}
+
+.cover-img-container-titles .footer-playing-song-subtitle {
+    font-size: .7rem;
+    color: var(--text-grey);
+}
+
+.container-icons {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-player {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 170px;
+
+}
+
+.player-buttons{
+    font-size: 1.3rem ;
+
+}
+
+.player-buttons i {
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+
+
+.volume-bar{
+    width: 80px;
+    height: .4rem;
+    background-color: white;
+}
+
+
+.time, .volume-bar {
+    font-size: .6rem;
+    display: inline-block;
+}
+
+
+
+
+.footer-dx {
+    justify-content: flex-end;
+    width: 25%;
+}
+
+
+.footer-icon {
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+
+.volume-bar {
+    align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************** */
+
+
+/* Query */
+
+
+@media screen and (max-width: 599px) {
+    .menu-title {
+        display: none;
+    }
+
+    .spotify-logo--text {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .install-title, .user-icon-title {
+        display: none;
+    }
+}
+
+
+
 
 
 @media screen and (min-width: 600px) {
@@ -227,7 +468,7 @@ ul{
         height: 250px;
         padding-top: 1.5rem;
     }
-    
+
     .container-add-playlist {
         background-color: gray;
         width: 30px;
@@ -249,116 +490,34 @@ ul{
     .menu-nav .download-icon {
         margin-right: .5rem;
     }
-}
 
-
-@media screen and (max-width: 599px) {
-    .menu-title {
-        display: none;
+    .container-icons {
+        flex-direction: row;
+        align-items: center;
     }
+
+
+    .footer-content .footer-cover-img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .cover-img-container-titles {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 85px;
+        font-size: .5em;
+        justify-content: space-between;
+        align-items: center;    
+        align-content: center;
+    }
+
     
-    .spotify-logo--text {
-        display: none;
-    }
-
-    .playlist {
-        display: none;
-    }
-
-    .install-title, .user-icon-title {
-        display: none;
-    }
-}
-
-/* header */
-
-.header-top-page {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    min-width: 215px;
-    background-color: var(--header-top-page-color);
-    justify-content: flex-end;
-    align-items: center;
-    height: 5rem;
-
-}
-
-.header-top-page .btn-header {
-    border: 1px solid white;
-    border-radius: 60px;
-    padding-right: 1em ;
-    padding-left: 1em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    margin-right: 1rem;
-    min-width: 220px;
-    color: white;
-    font-weight: 500;
-    
-
-}
-
-
-/* MAIN CONTENT */
-
-
-
-.content-main {
-    background-color: var(--main-content-color);
-    height: calc(100vh - 4rem);
-    overflow-y: auto;
-    padding-top: 5rem;
-    margin-left: 40px;
-    flex-direction: column;
-
-}
-
-.main-nav-list{
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
     
 }
 
-.main-nav-list li{
-    padding: .5em;
-    min-width: 100px;
-    text-transform: uppercase;
-}
 
-
-.main-section-title {
-    margin-top: 3rem;
-    margin-bottom: 0.8rem;
-    margin-left: .5rem;
-}
-
-.main-section-subtitle {
-    margin-left: .5rem;
-    margin-bottom: 2rem;
-}
-
-.content .recently-played, .for-you, .popular-artist {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.container-covers{
-    flex-grow: 1;
-    max-width: 250px;
-    min-width: 160px;
-    display: flex;
-    flex-direction: column;
-    padding: .5rem;
-    width: 50%;
-    text-align: center;
-}
-
-.cover-title {
-    margin-top: 1rem;
-}
 
 
 
@@ -366,8 +525,8 @@ ul{
     .content-main {
         margin-left: 200px;
     }
-    
-    
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -376,107 +535,7 @@ ul{
         min-width: 137px;
     }
 
-    
-}
 
+  
 
-
-/* footer */
-
-.footer-bottom-page {
-    background-color: var(--color-footer-bottom-page);
-    height: 4rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 110;
-    justify-content: space-between;
-    align-items: center;
-    padding: .5rem;
-    min-width: 340px;
-    
-}
-
-
-.footer-sx {
-    width: 25%;
-}
-
-.footer-cover-img {
-    width: 25px;
-    height: 25px;
-    align-self: center;
-}
-
-.cover-img-container-titles {
-    flex-direction: column;
-    font-size: .5em;
-    padding-right: .3rem;
-    padding-left: .3rem;
-}
-
-.cover-img-container-titles .footer-playing-song-title {
-    font-size: .8rem;
-}
-
-.cover-img-container-titles .footer-playing-song-subtitle {
-    font-size: .7rem;
-    color: var(--text-grey);
-}
-
-.container-icons {
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer-player {
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    min-width: 170px;
-
-}
-
-.player-buttons{
-    font-size: 1.3rem ;
-    
-}
-
-.player-buttons i {
-    padding-left: .3rem;
-    padding-right: .3rem;
-}
-
-
-.volume-bar{
-    width: 80px;
-    height: .4rem;
-    background-color: white;
-}
-
-
-.time, .volume-bar {
-    font-size: .6rem;
-    display: inline-block;
-}
-
-
-
-
-.footer-dx {
-    justify-content: flex-end;
-    width: 25%; 
-}
-
-
-.footer-icon {
-    padding-left: .3rem;
-    padding-right: .3rem;
-}
-
-.volume-bar {
-    align-self: center;
 }
