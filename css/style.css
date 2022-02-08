@@ -159,11 +159,12 @@ ul{
     border-left: 2px solid transparent ;
 }
 
-.menu-main .menu-icon:hover, .menu-icon:active{
+
+.container-icon-title:hover .menu-icon{
     opacity: 1;
     border-left: 2px solid green;
-}
 
+}
 
 
 .menu-nav .download-icon {
