@@ -141,9 +141,14 @@ ul{
         align-items: center;
     }
 
-    .playlist {
-        height: 250px;
+    .playlist-titles-list{
+        height: 200px;
         overflow-y: auto;
+    }
+
+    .playlist{
+        height: 250px;
+        padding-top: 1.5rem;
     }
     
     .container-add-playlist {
