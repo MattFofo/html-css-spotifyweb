@@ -156,11 +156,15 @@ ul{
     width: 30px;
     padding-bottom: .4em;
     opacity: .5;
+    border-left: 2px solid transparent ;
 }
 
 .menu-main .menu-icon:hover, .menu-icon:active{
     opacity: 1;
+    border-left: 2px solid green;
 }
+
+
 
 .menu-nav .download-icon {
     width: 20px;
@@ -343,7 +347,7 @@ ul{
     justify-content: center;
     align-items: center;
     width: 50%;
-    min-width: 170px;
+    min-width: 180px;
 
 }
 
@@ -375,6 +379,7 @@ ul{
     height: .4rem;
     background-color: white;
     flex-grow: 1;
+    border-radius: 4px;
 }
 
 .volume-bar-small{
@@ -384,6 +389,7 @@ ul{
     background-color: white;
     flex-grow: 1;
     align-self: center;
+    border-radius: 4px;
 }
 
 
