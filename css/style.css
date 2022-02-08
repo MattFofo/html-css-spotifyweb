@@ -110,6 +110,10 @@ ul{
     margin-left: .3rem;
 }
 
+.mr3rem {
+    margin-right: .3rem;
+}
+
 .mr20 {
     margin-right: 20px;
 }
@@ -297,7 +301,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     padding: .5rem;
-    min-width: 340px;
+    min-width: 480px;
 
 }
 
@@ -563,5 +567,24 @@ ul{
 
 
   
+
+}
+
+
+@media screen and (max-width: 438px) {
+    .footer-dx {
+        display: none;
+    }
+
+    
+.footer-bottom-page {
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    min-width: 310px;
+
+}
+
 
 }
