@@ -57,6 +57,10 @@ ul{
     padding-top: .3em;
 }
 
+.pb5rem {
+    padding-bottom: .5rem;
+}
+
 .mb10 {
     margin-bottom: 10px;
 }
@@ -132,6 +136,11 @@ ul{
         display: none;
     }
 
+    .spotify-logo--text {
+        padding: .5rem;
+        width: 150px;
+    }
+
     .menu-nav{
         flex-direction: column;
         align-items: stretch;
@@ -144,6 +153,10 @@ ul{
     .playlist-titles-list{
         height: 200px;
         overflow-y: auto;
+    }
+
+    .playlist-titles-list li{
+        padding-bottom: .8rem;
     }
 
     .playlist{
