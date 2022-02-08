@@ -32,15 +32,9 @@ ul{
     text-decoration: none;
 }
 
-.btn-grey {
-    color: var(--text-grey);
-}
+/* ******************************* */
 
-.icon-title-btn {
-    display: contents;
-    color: var(--text-grey);
-}
-
+/* Hovers */
 
 .container-icon-title:hover .menu-title {
     color: white;
@@ -58,15 +52,29 @@ ul{
     background-color: white;
 }
 
-.btn:active{
+.install-title:hover > .icon-title-btn{
+    color: white;
+
+}
+
+.container-icon-title:hover .menu-icon{
+    opacity: 1;
+    border-left: 2px solid green;
+
+}
+
+.main-nav-list li:hover .btn-main-nav {
+    color: white;
+    border-bottom: 2px solid white ;
+
+}
+
+.btn:visited{
     text-decoration: none;
 
 }
 
-.colorwh {
-    color: white;
-}
-
+/* ********************************** */
 
 /* UTILITY */
 
@@ -93,6 +101,18 @@ ul{
     font-size: .8rem;
 }
 
+.btn-grey {
+    color: var(--text-grey);
+}
+
+.icon-title-btn {
+    display: contents;
+    color: var(--text-grey);
+}
+
+.colorwh {
+    color: white;
+}
 
 .inline-block {
     display: inline-block;
@@ -173,18 +193,6 @@ ul{
 }
 
 
-.container-icon-title:hover .menu-icon{
-    opacity: 1;
-    border-left: 2px solid green;
-
-}
-
-.main-nav-list li:hover .btn-main-nav {
-    color: white;
-    border-bottom: 2px solid white ;
-
-}
-
 
 .menu-nav .download-icon {
     width: 20px;
@@ -242,6 +250,7 @@ ul{
     transform: scale(1.1);
 }
 
+/* ******************************************************* */
 
 /* MAIN CONTENT */
 
@@ -308,7 +317,7 @@ ul{
 
 
 
-
+/* ************************************************ */
 
 
 
@@ -583,9 +592,6 @@ ul{
         align-items: center;    
         align-content: center;
     }
-
-   
-    
     
 }
 
@@ -601,9 +607,8 @@ ul{
     }
 
 
-  
-
 }
+
 
 
 @media screen and (max-width: 438px) {
