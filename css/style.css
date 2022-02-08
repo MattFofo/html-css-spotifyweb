@@ -41,8 +41,21 @@ ul{
     color: var(--text-grey);
 }
 
-.icon-title-btn:active, .icon-title-btn:hover{
+
+.container-icon-title:hover .menu-title {
     color: white;
+}
+
+.playlist-name:hover .icon-title-btn {
+    color: white;
+}
+
+.container-icon-and-text:hover {
+    color: white;
+}
+
+.container-icon-and-text:hover .container-add-playlist {
+    background-color: white;
 }
 
 .btn:active{
