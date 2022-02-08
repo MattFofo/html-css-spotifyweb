@@ -68,6 +68,17 @@ ul{
     align-self: center;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
+.subtitle {
+    color: gray;
+    margin-top: .3rem;
+    font-size: .8rem;
+}
+
+
 .inline-block {
     display: inline-block;
 }
@@ -317,13 +328,14 @@ ul{
 
 
 .main-section-title {
-    margin-top: 1.2rem;
+    margin-top: 3rem;
     margin-bottom: 0.8rem;
     margin-left: .5rem;
 }
 
 .main-section-subtitle {
     margin-left: .5rem;
+    margin-bottom: 2rem;
 }
 
 .content .recently-played, .for-you, .popular-artist {
@@ -356,12 +368,12 @@ ul{
     
 }
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1024px) {
     .container-covers{
-        max-width: 300px;
-        min-width: 160px;
+        max-width: 137px;
+        min-width: 137px;
     }
-    
+
     
 }
 
