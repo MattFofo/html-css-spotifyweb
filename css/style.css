@@ -210,6 +210,10 @@ ul{
 
 }
 
+.btn-header:hover, .btn-header:active {
+    transform: scale(1.1);
+}
+
 
 /* MAIN CONTENT */
 
@@ -341,7 +345,12 @@ ul{
 
 .player-buttons{
     font-size: 1.3rem ;
+    margin-bottom: .3rem;
 
+}
+
+.fa-play-circle {
+    font-size: 1.6rem;
 }
 
 .player-buttons i {
