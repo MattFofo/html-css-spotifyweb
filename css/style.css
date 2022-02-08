@@ -310,11 +310,20 @@ ul{
     margin-bottom: .8rem;
 }
 
+.container-covers .fa-play-circle {
+    font-size: 3rem;
+    visibility: hidden;
+}
+
 .cover-title {
     margin-top: 1rem;
     font-size: 1rem;
 }
 
+
+.container-covers:hover .fa-play-circle{
+    visibility: visible;
+}
 
 
 /* ************************************************ */
@@ -597,6 +606,16 @@ ul{
 
 
 
+@media screen and (max-width: 768px) {
+    .container-covers{
+        max-width: 300px;
+        min-width: 137px;
+        width: calc(100% / 2);
+    }
+
+
+}
+
 
 
 @media screen and (min-width: 1024px) {
@@ -627,4 +646,15 @@ ul{
 }
 
 
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
