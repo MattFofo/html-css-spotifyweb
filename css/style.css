@@ -359,10 +359,27 @@ ul{
 }
 
 
+.volume-bar-container {
+    width: 100%;
+    justify-content: center;
+    max-width: 600px;
+    min-width: 80px;
+}
+
 .volume-bar{
     width: 80px;
     height: .4rem;
     background-color: white;
+    flex-grow: 1;
+}
+
+.volume-bar-small{
+    max-width: 150px;
+    width: 80px;
+    height: .4rem;
+    background-color: white;
+    flex-grow: 1;
+    align-self: center;
 }
 
 
