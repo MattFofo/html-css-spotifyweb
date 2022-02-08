@@ -65,6 +65,7 @@ ul{
     padding-left: .5rem;
 }
 
+
 .mb10 {
     margin-bottom: 10px;
 }
@@ -73,10 +74,18 @@ ul{
     margin-left: 20px;
 }
 
+.ml3rem {
+    margin-left: .3rem;
+}
+
 .mr20 {
     margin-right: 20px;
 }
 
+
+.mr3rem {
+    margin-right: .3rem;
+}
 
 
 
@@ -109,7 +118,12 @@ ul{
 
 .menu-nav .download-icon {
     width: 20px;
-    margin-right: 2px;
+    margin-right: .5rem;
+}
+
+.container-user-icon-and-name {
+    margin-bottom: .5rem;
+
 }
 
 .container-user-icon {
@@ -118,7 +132,7 @@ ul{
     background-color: gray;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: .5rem;
+    
 }
 
 
