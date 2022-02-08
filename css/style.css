@@ -118,7 +118,6 @@ ul{
 
 .menu-nav .download-icon {
     width: 20px;
-    margin-right: .5rem;
 }
 
 .container-user-icon-and-name {
@@ -165,6 +164,10 @@ ul{
         align-items: stretch;
     }
 
+    .menu-nav-top {
+        padding-left: .5rem;
+    }
+
     .container-icon-title {
         align-items: center;
     }
@@ -199,6 +202,10 @@ ul{
     .menu-nav-bottom .container-bordered {
         border-bottom: 1px solid grey;
 
+    }
+
+    .menu-nav .download-icon {
+        margin-right: .5rem;
     }
 }
 
