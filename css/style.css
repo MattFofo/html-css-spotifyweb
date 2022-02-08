@@ -39,6 +39,10 @@ ul{
     color: gray;
 }
 
+.icon-title-btn:active, .icon-title-btn:hover{
+    color: white;
+}
+
 .btn:active{
     text-decoration: none;
 
@@ -126,9 +130,19 @@ ul{
     align-items: center;
 }
 
+.menu-main .menu-logo {
+    width: 30px;
+    padding-bottom: .4em;
+}
+
 .menu-main .menu-icon {
     width: 30px;
     padding-bottom: .4em;
+    opacity: .5;
+}
+
+.menu-main .menu-icon:hover, .menu-icon:active{
+    opacity: 1;
 }
 
 .menu-nav .download-icon {
