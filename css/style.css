@@ -118,6 +118,17 @@ ul{
     display: inline-block;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .pt3em {
     padding-top: .3em;
 }
@@ -470,6 +481,23 @@ ul{
 /* Query */
 
 
+
+@media screen and (max-width: 438px) {
+    .footer-dx {
+        display: none;
+    }
+
+    
+.footer-bottom-page {
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    min-width: 310px;
+
+}
+
+
 @media screen and (max-width: 550px) {
     .menu-title {
         display: none;
@@ -629,32 +657,5 @@ ul{
 }
 
 
-
-@media screen and (max-width: 438px) {
-    .footer-dx {
-        display: none;
-    }
-
-    
-.footer-bottom-page {
-   
-    justify-content: space-between;
-    align-items: center;
-    padding: .5rem;
-    min-width: 310px;
-
 }
 
-
-}
-
-.relative{
-    position: relative;
-}
-
-.absolute{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
